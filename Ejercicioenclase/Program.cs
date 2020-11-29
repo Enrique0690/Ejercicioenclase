@@ -16,7 +16,7 @@ namespace Ejercicioenclase
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Formularios.Ffactorial());
+            Application.Run(new Formularios.Fsumatoria());
         }
     }
 }

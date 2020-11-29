@@ -23,7 +23,7 @@ namespace Ejercicioenclase.Formularios
             int inicio = int.Parse(txtinicio.Text);
             int fin = int.Parse(txtfin.Text);
             sumatoria(inicio,fin,re);
-            lbrespuesta.Text="La respuesta es : "+re;
+            
         }
         void sumatoria(int inicio, int fin, int re)
         {
@@ -33,7 +33,7 @@ namespace Ejercicioenclase.Formularios
                 op = (2 ^ (i + 1) - 2 ^ (i))/i+1;
                 re = re+op;
             }
-
+            lbrespuesta.Text = "La respuesta es : " + re;
         }
     }
 }
